@@ -1,21 +1,37 @@
-let idade = Number(prompt("Digite sua idade"));
-let aposentado = (prompt("Você é aposentado? (sim/nao"));
-let estudante = prompt("Você é estudante? (sim/nao)");
+let dia1 = "Domingo" ;
+let dia2 = "Segunda-Feira";
+let dia3 = "Terça-Feira" ;
+let dia4 = "Quarta-Feira";
+let dia5 = "Quinta-Fiera";
+let dia6 = "Sexta-Feira";
+let dia7 = "Sabado" ;
+ 
+let numero = Number(prompt("Digite um número de 1 a 7"));
 
-aposentado=aposentado.toLowerCase();
-estudante=estudante.toLowerCase();
-
-if(idade >=0 && idade <=12){
-    console.log("Entrada 10 reais");
-}
-else if(idade >=13 && idade <=17){
-    console.log("Entrada 15 reais")
-}
-
-else if(idade >=18 && idade <=59){
-    console.log("Entrada 35 reais");
+if(numero == 1 ){
+    console.log(`O dia ${numero} é ${dia1}`);
 }
 
-else if(idade >=60 || aposentado ==="sim"){
-    console.log("Entrada gratuita");
+else if(numero == 2){
+    console.log(`O dia ${numero} é ${dia2}`)
+}
+
+else if(numero == 3){
+    console.log(`O dia ${numero} é ${dia3}`)
+}
+
+else if(numero == 4){
+    console.log(`O dia ${numero} é ${dia4}`)
+}
+
+else if(numero == 5){
+    console.log(`O dia ${numero} é ${dia5}`)
+}
+
+else if(numero == 6){
+    console.log(`O dia ${numero} é ${dia6}`)
+}
+
+else if(numero == 7){
+    console.log(`O dia ${numero} é ${dia7}`)
 }
